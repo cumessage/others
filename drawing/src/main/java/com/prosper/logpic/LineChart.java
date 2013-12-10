@@ -113,8 +113,8 @@ public class LineChart extends ApplicationFrame {
 //		XYSeries XYSeries4 = new XYSeries("acce-t");	
 
 		try {
-//			File file = new File("D:/gyroscope.log");
-			File file = new File("D:/accelerometer.log");
+//			File file = new File("D:\\workspace\\others\\doc\\fake\\gyroscope.log");
+			File file = new File("D:\\workspace\\others\\doc\\fake\\accelerometer.log");
 			BufferedReader acceReader = new BufferedReader(new FileReader(file));
 			
 			String line = "";
